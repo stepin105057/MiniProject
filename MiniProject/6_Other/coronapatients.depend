@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1604802342 source:c:\users\welcome\desktop\105057\coronapatients\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	<conio.h>
+	"coronapatients.h"
+
+1604802508 source:c:\users\welcome\desktop\105057\coronapatients\src\coronapatients.c
+	"coronapatients.h"
+	<string.h>
+	<stdlib.h>
+	<math.h>
+
