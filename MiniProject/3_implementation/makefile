@@ -11,6 +11,9 @@ src/coronapatients.c\
 TEST_SRC = src/coronapatients.c\
 test/test.c
 
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECR_NAME).out
+
+
 # All include folders with header files
 INC	= -Iunity\
 -Iinc\
