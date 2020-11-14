@@ -37,7 +37,9 @@ all: $(SRC) $(BUILD)
 run:$(PROJECT_NAME)
 	./$(PROJECT_OUTPUT).out
 
-
+# Document the code using Doxygen
+doc:
+	make -C ./documentation
 	
 # Remove all the built files, invoke by `make clean`
 clean:
